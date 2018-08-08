@@ -351,6 +351,7 @@ body {
     padding-left: 50px;
     font-size: 16px;
     border-left: 3px solid #a38b70;
+    min-height: 100%;
 }
 
 .review-item p {
@@ -361,6 +362,7 @@ body {
 .review-author {
     font-weight: bold;
     font-style: italic;
+    vertical-align: bottom;
 }
 
 .popular-and-price {
