@@ -776,7 +776,7 @@ body {
 
 @font-face { 
     font-family: "Raleway-SemiBold";
-    src: url("../fonts/Raleway-Semi.ttf") format("truetype");
+    src: url("../fonts/Raleway-SemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
 }
