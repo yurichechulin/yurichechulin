@@ -1,16 +1,478 @@
-<!DOCTYPE HTML>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Юрий Чечулин</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-      <main>
-        <div class="website">
-            <a href="./01-catsandmices/index.html">Зоомагазин "Кошки-мышки"</a>
-          </div>
-      </main>
-  </body>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="ru"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Юрий Чечулин. Набренчался и хочу кодить!</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Показать меню">Показать меню</a>
+	      <a class="mobile-btn" href="#" title="Скрыть меню">Скрыть меню</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Главная</a></li>
+            <li><a class="smoothscroll" href="#about">Обо мне</a></li>
+	         <li><a class="smoothscroll" href="#resume">Резюме</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Работы</a></li>
+            <li><a class="smoothscroll" href="#testimonials">История</a></li>
+            <li><a class="smoothscroll" href="#contact">Контакты</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Юрий Чечулин</h1>
+            <h3>
+                Привет! Меня зовут <span>Юрий</span>, я - начинающий верстальщик из <span>Екатеринбурга</span>. 
+                У меня есть <span>большая цель</span> - стать <span class="cool-frontender"> крутым front-end разработчиком.</span> <br> 
+                Я расскажу вам о себе подробнее <a class="smoothscroll" href="#about">чуть ниже.</a>
+           </h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://vk.com/novemberxcharlie"><i class="fa fa-vk"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+               <li><a href="https://www.instagram.com/yuricrvll/"><i class="fa fa-instagram"></i></a></li>
+              
+               
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>Обо мне</h2>
+
+            <p>Моя задача на ближайшее время - совершенствование в создании адаптивных кроссбраузерных веб-страниц, которые были бы при этом красивы и удобны для пользователя. Мой набор инструментов на данный момент состоит из <b>HTML5, CSS3, Javascript, SCSS, Gulp, Git, Brackets и Photoshop.</b>
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Связаться со мной:</h2>
+                  <p class="address">
+				      <span class="myname">Чечулин Юрий Сергеевич</span><br>
+                      <a href="tel:+79995590713"><span>+7(999)559-07-13</span><br></a>
+                      <a href="mailto:yu.s.chechulin@gmail.com"><span>yu.s.chechulin@gmail.com</span></a>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="downloads/YuriChechulin-CV2018.docx" class="button"><i class="fa fa-download"></i>Скачать резюме</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>ОБРАЗОВАНИЕ</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Радиотехнический факультет УрФУ</h3>
+                  <p class="info">Информатика и вычислительная техника, магистр<span>&bull;</span> <em class="date">2012 - 2014</em></p>
+
+                  <p>
+                    В процессе обучения в магистратуре университета работал с системами имитационного моделирования BpWin, AnyLogic, ERP-системой SAP R/3. При работе над магистерской диссертацией - "Автоматизированным веб-сервисом управления музыкальным проектом" использовал фреймворки ASP.NET MVC4 и EntityFramework, систему контроля версий Git . Осенью 2013 прослушал спецкурс СКБ.Контур "Управление IT-проектами", где познакомился с гибкими методологиями разработки, после чего по своей инициативе провел несколько занятий с младшекурсниками своей кафедры по концепциям экстремального программирования. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+            
+             <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Радиотехнический факультет УрФУ</h3>
+                  <p class="info">Информатика и вычислительная техника, бакалавр<span>&bull;</span> <em class="date">2008 - 2012</em></p>
+
+                  <p>
+                  Тема выпускной квалификационной работы - "Применение нейросети на основе многослойного перцептрона для распознавания текста". Во время обучения в университете проходил производственную практику в <a href="http://www.telesen.ru/">ООО "Телесен"</a> в должности стажёра-разработчика. Принимал участие в разработке клиентской части программного комплекса системы видеонаблюдения. Используемая платформа - .NET Framework 3.5, язык программирования - C#; 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+             
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>СУНЦ УрГУ</h3>
+                  <p class="info">Физико-химический класс <span>&bull;</span> <em class="date">2006-2008</em></p>
+
+                  <p>
+                  Во время обучения в лицее участвовал во всевозможных олимпиадах по информатике и ACM-контестах. Призер областного этапа олимпиады по информатике. Посещал лицейские спецкурсы по веб-разработке и олимпиадному программированию.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Карьера</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            
+          <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>November Charlie Music</h3>
+                  <p class="info">Звукоинженер, аранжировщик, композитор <span>&bull;</span> <em class="date">2011 - Настоящее время</em></p>
+
+                  <p>
+                  До нынешнего момента моя трудовая деятельность была связана со студийной звукозаписью и написанием аранжировок. С 2011 года я развивался в этой сфере, а с 2015 года работал на многих студиях звукозаписи Москвы и Екатеринбурга, в 2017 году построил свою студию звукозаписи, оснащенную серьезным профессиональным оборудованием. Работы, сделанные мною, неоднократно звучали по радио и попадали в саундтреки к известным сериалам. Резкая смена рода деятельности связана с осознанием, что я хочу заниматься музыкой не "full-time", а вечерами после работы, как хобби, ведь в детстве я мечтал стать именно разработчиком, а не музыкантом. Помимо этого, через несколько лет я вижу себя реализовавшимся именно в сфере front-end разработки.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+             
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Вооруженные Силы РФ</h3>
+                  <p class="info">Начальник расчета <span>&bull;</span> <em class="date">2014 - 2015</em></p>
+
+                  <p>
+                  После окончания университета проходил службу в РВиА Вооруженных Сил Российской Федерации на должности начальника расчета, руководил группами до 10 человек. Уволен в запас в воинском звании сержанта. Во время службы прочел множество книг на it-тематику, познакомился с паттернами проектирования, требованиями к чистоте программного кода, методологиями промышленной разработки.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Навыки</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                       <li><span class="bar-expand css"></span><em>CSS</em></li>
+				       <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+						<li><span class="bar-expand gulp"></span><em>SCSS, Gulp</em></li>
+						<li><span class="bar-expand git"></span><em>Git</em></li>
+                  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Здесь будет пополняемый список моих работ:</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/catsandmices.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Зоомагазин <br>"КОШКИ МЫШКИ"</h5>
+                              <p></p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+              
+
+              
+
+               
+
+               
+
+              
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-catsandmices.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Зоомагазин "КОШКИ МЫШКИ"</h4>
+			      <p>Мой самый первый одностраничный макет. </p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML5, CSS3</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://yurichechulin.github.io/01-catsandmices/">Посмотреть</a>
+		         <a class="popup-modal-dismiss">Закрыть</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+  
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Отзывы и рекомендации</span></h1>
+
+            </div>
+   
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>90-е. Денег нет даже на еду, не то, что на компьютеры. Опять 5-летний Юра приставил папин баян к нерабочему телевизору, чтобы поиграть в программиста. 
+                           </p>
+                           <cite>Надежда Иосифовна Чечулина, Юрина мама.</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+             
+
+                     <li>
+                        <blockquote>
+                           <p>...пишет на бумажной полоске "50 GOTO 20", стучит по кнопкам баяна, слюнявит полоску и лепит ее на экран. Величайшая программа всех времен и народов почти готова!
+                           </p>
+                           <cite>5-летний Юра.</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                    
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Напишите мне: <a href="mailto:yu.s.chechulin@gmail.com" class="last-contacts">yu.s.chechulin@gmail.com</a>
+                  <br>
+Мой номер телефона: <a href="tel: +79995590713" class="last-contacts">+7(999)559-07-13</a>
+                </p>
+
+            </div>
+
+         </div>
+     
+         
+
+           
+
+
+            
+          
+
+   
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="http://vk.com/novemberxcharlie"><i class="fa fa-vk"></i></a></li>
+               <li><a href="http://vk.com/yuricrvll"><i class="fa fa-instagram"></i></a></li>
+
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; 2018 Чечулин Юрий</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
-    
